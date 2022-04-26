@@ -8,5 +8,10 @@ C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.Applicatio
 C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.Application\obj\Debug\net5.0\ProEventos.Application.dll
 C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.Application\obj\Debug\net5.0\ProEventos.Application.pdb
 C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.Application\obj\Debug\net5.0\ref\ProEventos.Application.dll
-C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.Application\obj\Debug\net5.0\ProEventos.Application.csproj.AssemblyReference.cache
-C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.Application\obj\Debug\net5.0\refint\ProEventos.Application.dll
+C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.Application\bin\Debug\net5.0\ProEventos.Domain.dll
+C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.Application\bin\Debug\net5.0\ProEventos.Persistence.dll
+C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.Application\bin\Debug\net5.0\ProEventos.Domain.pdb
+C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.Application\bin\Debug\net5.0\ProEventos.Persistence.pdb
+C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.Application\obj\Debug\net5.0\ProEventos.Application.csproj.CopyComplete
+C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.Application\bin\Debug\net5.0\ref\ProEventos.Application.dll
+C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.Application\obj\Debug\net5.0\ProEventos.Application.csprojAssemblyReference.cache

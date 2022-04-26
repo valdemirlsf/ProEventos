@@ -14,5 +14,5 @@ C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.Persistenc
 C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.Persistence\obj\Debug\net5.0\ref\ProEventos.Persistence.dll
 C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.Persistence\obj\Debug\net5.0\ProEventos.Persistence.pdb
 C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.Persistence\obj\Debug\net5.0\ProEventos.Persistence.genruntimeconfig.cache
-C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.Persistence\obj\Debug\net5.0\ProEventos.Persistence.csproj.AssemblyReference.cache
-C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.Persistence\obj\Debug\net5.0\refint\ProEventos.Persistence.dll
+C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.Persistence\bin\Debug\net5.0\ref\ProEventos.Persistence.dll
+C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.Persistence\obj\Debug\net5.0\ProEventos.Persistence.csprojAssemblyReference.cache

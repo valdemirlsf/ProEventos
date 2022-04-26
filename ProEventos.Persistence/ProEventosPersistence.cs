@@ -9,7 +9,7 @@ using ProEventos.Persistence.Interfaces;
 
 namespace ProEventos.Persistence
 {
-    internal class ProEventosPersistence : IPalestrantePersistence, IEventoPersistence, IGeralPersistence
+    public class ProEventosPersistence : IPalestrantePersistence, IEventoPersistence, IGeralPersistence
     {
         private readonly ProEventosContext _context;
 
@@ -55,7 +55,7 @@ namespace ProEventos.Persistence
             return await query.ToArrayAsync();
         }
 
-        public async Task<Evento[]> GetAllEventsAsync(string tema, bool includePalestrantes=true)
+        public async Task<Evento[]> GetAllEventsAsync(bool includePalestrantes=true)
         {
             IQueryable<Evento> query = _context.Eventos.Include(e => e.Lotes).Include(e => e.RedesSociais);
             if (includePalestrantes) { 

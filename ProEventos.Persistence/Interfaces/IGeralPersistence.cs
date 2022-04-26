@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProEventos.Persistence.Interfaces
 {
-    internal interface IGeralPersistence
+    public interface IGeralPersistence
     {
         void Add<T>(T entity) where T : class;
         void Update<T>(T entity) where T : class;

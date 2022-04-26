@@ -13,6 +13,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using ProEventos.Persistence;
 using Microsoft.EntityFrameworkCore;
+using ProEventos.Application.Contratos;
+using ProEventos.Application;
+using ProEventos.Persistence.Interfaces;
 
 namespace ProEventos.API
 {
@@ -29,7 +32,10 @@ namespace ProEventos.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ProEventosContext>(context => context.UseSqlServer(Configuration.GetConnectionString("Default")));
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson(z => z.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+            services.AddScoped<IEventoService, EventoService>();
+            services.AddScoped<IEventoPersistence, EventosPersistence>();
+            services.AddScoped<IGeralPersistence, GeralPersistence>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ProEventos.API", Version = "v1" });

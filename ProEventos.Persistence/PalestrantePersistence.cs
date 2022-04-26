@@ -19,7 +19,7 @@ namespace ProEventos.Persistence
 
         public async Task<Palestrante[]> GetAllPalestrantesAsync(bool includeEventos = true)
         {
-            IQueryable<Palestrante> query = _context.Palestrantes.Include(e => e.RedesSociais);
+            IQueryable<Palestrante> query = _context.Palestrantes.AsNoTracking().Include(e => e.RedesSociais);
             if (includeEventos)
             {
                 query = query.Include(e => e.PalestrantesEventos);
@@ -29,7 +29,7 @@ namespace ProEventos.Persistence
 
         public async Task<Palestrante[]> GetAllPalestrantesByNomeAsync(string nome, bool includeEventos = true)
         {
-            IQueryable<Palestrante> query = _context.Palestrantes.Include(e => e.RedesSociais);
+            IQueryable<Palestrante> query = _context.Palestrantes.AsNoTracking().Include(e => e.RedesSociais);
             if (includeEventos)
             {
                 query = query.Include(e => e.PalestrantesEventos);
@@ -41,7 +41,7 @@ namespace ProEventos.Persistence
 
         public async Task<Palestrante> GetPalestranteByIdAsync(int PalestranteId, bool includeEventos = true)
         {
-            IQueryable<Palestrante> query = _context.Palestrantes.Include(e => e.RedesSociais);
+            IQueryable<Palestrante> query = _context.Palestrantes.AsNoTracking().Include(e => e.RedesSociais);
             if (includeEventos)
             {
                 query = query

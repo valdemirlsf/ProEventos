@@ -7,12 +7,12 @@ using ProEventos.Domain;
 
 namespace ProEventos.Persistence.Interfaces
 {
-    internal interface IEventoPersistence
+    public interface IEventoPersistence
     {
         //Eventos
         Task<Evento[]> GetAllEventosByTemaAsync(string tema, bool includePalestrantes);
 
-        Task<Evento[]> GetAllEventsAsync(string tema, bool includePalestrantes);
+        Task<Evento[]> GetAllEventsAsync(bool includePalestrantes);
 
         Task<Evento> GetEventByIdAsync(int EventoId, bool includePalestrantes);
     }
