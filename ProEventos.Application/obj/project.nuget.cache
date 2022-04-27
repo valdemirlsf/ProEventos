@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "1U9RHlQ2jbNpdA8WUsHhDwckz0Qi6aXY5kKMKCdtU0nVZwYvlCzr8zHogoUal+stXmHKjlOtaIA7OuRuu7+e4Q==",
+  "dgSpecHash": "DhS8YmQZ8oPNUv0FW0YvcR3WUq1E9JODqfBkoBYaP5B7OIPhslhVG4JRpiW63eeScQ9AtvBeRk0W9T0sXuWuew==",
   "success": true,
   "projectFilePath": "C:\\Users\\VA20273354\\Documents\\Projects\\Back\\src\\ProEventos\\ProEventos.Application\\ProEventos.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\VA20273354\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\VA20273354\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\VA20273354\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\VA20273354\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.2\\microsoft.entityframeworkcore.5.0.2.nupkg.sha512",
     "C:\\Users\\VA20273354\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.2\\microsoft.entityframeworkcore.abstractions.5.0.2.nupkg.sha512",
     "C:\\Users\\VA20273354\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.2\\microsoft.entityframeworkcore.analyzers.5.0.2.nupkg.sha512",
@@ -19,7 +22,8 @@
     "C:\\Users\\VA20273354\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\VA20273354\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\VA20273354\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
-    "C:\\Users\\VA20273354\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
+    "C:\\Users\\VA20273354\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "C:\\Users\\VA20273354\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }
