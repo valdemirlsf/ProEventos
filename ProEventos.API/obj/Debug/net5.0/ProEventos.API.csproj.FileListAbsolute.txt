@@ -66,7 +66,7 @@ C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.API\bin\De
 C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.API\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
-C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.API\obj\Debug\net5.0\ProEventos.API.csproj.AssemblyReference.cache
-C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.API\obj\Debug\net5.0\refint\ProEventos.API.dll
 C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.API\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.API\bin\Debug\net5.0\ref\ProEventos.API.dll
+C:\Users\VA20273354\Documents\Projects\Back\src\ProEventos\ProEventos.API\obj\Debug\net5.0\ProEventos.API.csprojAssemblyReference.cache

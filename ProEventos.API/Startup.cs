@@ -1,16 +1,10 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using ProEventos.Persistence;
 using Microsoft.EntityFrameworkCore;
 using ProEventos.Application.Contratos;
@@ -34,13 +28,20 @@ namespace ProEventos.API
             services.AddDbContext<ProEventosContext>(context => context.UseSqlServer(Configuration.GetConnectionString("Default")));
             services.AddControllers().AddNewtonsoftJson(z => z.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
             services.AddScoped<IEventoService, EventoService>();
             services.AddScoped<IEventoPersistence, EventosPersistence>();
             services.AddScoped<IGeralPersistence, GeralPersistence>();
+
+            services.AddScoped<ILotePersistence, LotesPersistence>();
+            services.AddScoped<ILoteService, LoteService>();
+
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ProEventos.API", Version = "v1" });
             });
+            services.AddCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -58,6 +59,10 @@ namespace ProEventos.API
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseCors(x => x.AllowAnyHeader()
+                              .AllowAnyMethod()
+                              .AllowAnyOrigin());
 
             app.UseEndpoints(endpoints =>
             {
